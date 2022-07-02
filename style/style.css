@@ -1,0 +1,97 @@
+@font-face {
+	font-family: "Minecraft";
+    src: url(../assets/Minecraft/minecraft.ttf);
+}
+
+* {
+	scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+}
+
+.site {
+	font-family: "Minecraft";
+	line-height: 1.5;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header {
+	z-index: 1;
+	height: 30%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	
+	background-image: url(../images/grass.png);
+	background-repeat: repeat;
+	background-size: 320px;
+}
+
+.title_icon {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon {
+	height: 200px;
+}
+
+.title_links {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.title_link {
+	font-size: 25px;
+	color: white;
+	padding: 30px;
+	text-decoration: none;
+	transition: 0.25s;
+}
+
+.title_link:hover {
+	color: rgb(143, 165, 120);
+}
+
+.top {
+	width: 100%;
+	background-image: url(../images/dirt.png);
+	background-repeat: repeat;
+	background-size: 320px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+	
+
+.center {
+	width: 100%;
+	background-image: url(../images/stone.png);
+	background-repeat: repeat;
+	background-size: 320px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.bottom {
+	width: 100%;
+	background-image: url(../images/bedrock.png);	
+	background-repeat: repeat;
+	background-size: 320px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
